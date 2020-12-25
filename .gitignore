@@ -1,25 +1,25 @@
 /backend/node_modules
-/truly_indian_react/node_modules
+node_modules
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/truly_indian_react/.pnp
-/truly_indian_react/.pnp.js
+.pnp
+.pnp.js
 
 # testing
-/truly_indian_react/coverage
+coverage
 
 # production
-/truly_indian_react/build
+build
 
 # misc
-/truly_indian_react/.DS_Store
-/truly_indian_react/.env.local
-/truly_indian_react/.env.development.local
-/truly_indian_react/.env.test.local
-/truly_indian_react/.env.production.local
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-/truly_indian_react/npm-debug.log*
-/truly_indian_react/yarn-debug.log*
-/truly_indian_react/yarn-error.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

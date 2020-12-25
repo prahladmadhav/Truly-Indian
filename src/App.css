@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Basic Layout Start */
+html, body, #root, .App{
+  height: 100%;
+}
+
+.App{
+  position: relative;
+  background: #00aaaa;
+}
+
+.main-container{
+  padding: 25px 5% 25px;
+  min-height: 90%;
+  background: #ffffff;
+}
+
+.footer-container{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer{
+  background: #00aaaa;
+  padding: 2px 0;
+  align-items: center;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40%;
+  align-items: center;
+  list-style: none;
+}
+/* Basic Layout End */
+
+
+/* Nav Start */
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #00aaaa;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links{
+  width: 200px;
+  display: flex;
+  padding: 10px 0 0;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+/* Nav End */
+
+/* Home Page Start */
+.carousel-main-container-home-page{
+  max-width: 400px;
+}
+/* Home Page End */
